@@ -1,0 +1,44 @@
+
+.user_input_error {
+	color: red;
+	font-size: .7em;
+	letter-spacing: .1rem;
+}
+
+.user_register_panel {
+	border: 1px solid #e6e6e6;
+	padding: 1em;
+	background-color: white;
+	border: none;
+}
+
+ h6 {
+	margin-bottom: 2em
+}
+
+.user_register_panel input {
+	height: 2em;
+	border-radius: 0px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+
+.user_register_panel input:focus {
+	box-shadow: none;
+	border: none;
+	border-bottom: 2px solid #66a3ff;
+}
+
+.user_register_panel label {
+	font-size: .8em;
+	letter-spacing: .1rem;
+}
+
+.bg {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	max-height: 100%;
+	background-color: #e6e6e6;
+}
